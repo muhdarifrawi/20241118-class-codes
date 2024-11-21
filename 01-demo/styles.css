@@ -1,0 +1,29 @@
+/* p {
+    color:red;
+} */
+
+/* ID must be unique */
+/* can only be used once in a document */
+#first-para{
+    /* color:violet; */
+    background-color: salmon;
+    /* padding-left:40px; */
+    padding: 40px 50px 60px 70px;
+    margin: 10px 20px 30px 40px;
+    /* border-color:red;
+    border-width:5px;
+    border-style:dashed; */
+    border: red 5px dashed;
+}
+
+.text-color{
+    color:green;
+}
+
+.font-bold{
+    font-weight:bold;
+}
+
+#inline-demo{
+    background-color: lightcoral;
+}

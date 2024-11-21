@@ -1,0 +1,35 @@
+.boxes{
+    height:100px;
+    width:100px;
+    border:red 3px solid;
+    background-color: salmon;
+    position:sticky;
+    top:0px;
+    /* transition-property:background-color height width; */
+    transition-duration: 3s;
+}
+
+.boxes:hover{
+    background-color:violet;
+    transform: scale(2.5);
+}
+
+#section-1{
+    height:200vh;
+    /* background-color: aquamarine; */
+    background-image:url(images/apartment.jpg);
+    background-size: cover;
+    background-repeat:no-repeat;
+    background-position:center;
+}
+#section-2{
+    height:200vh;
+    background-color: lightpink;
+}
+
+.transform{
+    transform: scale(2.5);
+}
+
+
+
